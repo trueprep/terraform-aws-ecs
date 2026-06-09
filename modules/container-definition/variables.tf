@@ -378,7 +378,6 @@ variable "versionConsistency" {
   description = "Specifies whether Amazon ECS will resolve the container image tag provided in the container definition to an image digest"
   type        = string
   default     = "disabled"
-  nullable    = false
 }
 
 # tflint-ignore: terraform_naming_convention
