@@ -319,7 +319,7 @@ variable "restartPolicy" {
     restartAttemptPeriod = optional(number)
   })
   default = {
-    enabled = true
+    enabled = false
   }
   nullable = false
 }
